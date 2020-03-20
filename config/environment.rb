@@ -1,8 +1,6 @@
 # Load the Rails application.
 require_relative 'application'
 
-Actio
-
 # Initialize the Rails application.
 Rails.application.initialize!
 
