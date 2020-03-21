@@ -72,4 +72,5 @@ Rails.application.configure do
 
   config.action_mailer.delivery_method = :test
   config.action_mailer.default_url_options = { :host => 'http://ubuntu1910:3000' }
+
 end
