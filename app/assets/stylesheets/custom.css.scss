@@ -1,3 +1,5 @@
+
+
 .user-name {
   padding: 0 !important;
   padding-left: 5px;
@@ -77,24 +79,39 @@
     }
   }
 }
+
 .plan { 
   border: 1px solid #e7e7e7;
   border-radius: 5px;
   margin-right: 5px;
 }
+
 .price {
   font-weight: 700;
   size: 120%;
 }
+
 .sign-up {
   margin-top: 5px;
 }
+
 .extra {
   color: #5cb85c;
 }
+
 .no-left-padding {
   padding-left: 0 !important
 }
+
 .no-right-padding {
   padding-right: 0 !important
+}
+
+.table tr td {
+  a.main-link {
+    color: #428bca;
+  }
+  a.main-link:hover {
+    background: none;
+  }
 }
