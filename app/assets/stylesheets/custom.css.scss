@@ -3,10 +3,10 @@
 .user-name {
   padding: 0 !important;
   padding-left: 5px;
-  padding-top: 15px !important;
+  padding-top: 8px !important;
   text-align: center;
   a {
-    color: #fff !important;
+    color: #000 !important;
     margin: 0 !important;
     padding: 5px!important;
   }
@@ -24,7 +24,7 @@
   .navbar-link {
     border-radius: 5px;
     color: #fff;
-    margin-top: 15px;
+    margin-top: 8px;
     padding: 8px;
   }
   .navbar-link:focus, .navbar-link:hover {
@@ -46,6 +46,9 @@
   }
   .btn-primary:hover, .btn-primary:focus {
     background-color: darken(#428bca,20%) !important;
+  }
+  .logout {
+    width: fit-content;
   }
 }
   
