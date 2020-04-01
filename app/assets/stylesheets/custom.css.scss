@@ -1,17 +1,22 @@
 
 
+.nav>li>a:hover, .nav>li>a:focus {
+  text-decoration: none;
+}
+
 .user-name {
   padding: 0 !important;
   padding-left: 5px;
   padding-top: 8px !important;
   text-align: center;
+  background-color: #000 !important;
   a {
-    color: #000 !important;
+    color: white !important;
     margin: 0 !important;
-    padding: 5px!important;
   }
   a:hover, a:focus {
-    color: #000 !important;
+    background-color: #000 !important;
+    text-decoration: underline !important;
   }
 }
   
@@ -24,7 +29,7 @@
   .navbar-link {
     border-radius: 5px;
     color: #fff;
-    margin-top: 8px;
+    margin-top: 13px;
     padding: 8px;
   }
   .navbar-link:focus, .navbar-link:hover {
@@ -39,13 +44,15 @@
 .nav.navbar-right li {
   .btn {
     color: #fff !important;
-    margin-top: 5%;
+    margin-top: 8px;
   }
   .btn-danger:hover, .btn-danger:focus {
     background-color: darken(#d9534f,20%) !important;
+    text-decoration: none !important;
   }
   .btn-primary:hover, .btn-primary:focus {
     background-color: darken(#428bca,20%) !important;
+    text-decoration: none !important;
   }
   .logout {
     width: fit-content;
@@ -117,4 +124,18 @@
   a.main-link:hover {
     background: none;
   }
+}
+
+.fa.fa-rocket {
+  background: #fff;
+  border: 1px solid white;
+  border-radius: 20px;
+  color: red;
+  padding: 6px;
+}
+
+.navbar.navbar-static-top {
+  background: #000;
+  color: #fff !important;
+  padding-bottom: 5px;
 }
